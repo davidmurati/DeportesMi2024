@@ -6,12 +6,13 @@ body {
   height: flex;
   margin: 0;
   padding: 0;
-  background-color: #064ed3b4;
-  min-width: 320px; /* Ancho mínimo para el cuerpo */
+  background-color: #064ed3;
+  min-width: 500px; /* Ancho mínimo para el cuerpo */
 }
 
 #root {
-  min-width: 320px; /* Ancho mínimo para la raíz */
+  min-width: 500px; /* Ancho mínimo para la raíz */
+  background-color: #064ed3b4;
 }
 
 /* Form styles */
