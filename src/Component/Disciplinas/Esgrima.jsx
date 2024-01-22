@@ -296,7 +296,7 @@ class Esgrima extends React.Component {
                     >
                       Editar
                     </Button>{" "}
-                    <Button color="danger" className="Button1"  onClick={()=> this.eliminar(dato)}>Eliminar</Button>
+                    <Button  className="Button1"  onClick={()=> this.eliminar(dato)}>Eliminar</Button>
                   </td>
                 </tr>
               ))}
