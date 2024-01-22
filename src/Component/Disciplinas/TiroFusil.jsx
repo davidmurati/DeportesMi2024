@@ -284,12 +284,12 @@ class TiroFusil extends React.Component {
                   <td>{dato.Ganador}</td>
                   <td>
                     <Button
-                      color="primary"
+                      color="primary" className="Button1"
                       onClick={() => this.mostrarModalActualizar(dato)}
                     >
                       Editar
                     </Button>{" "}
-                    <Button color="danger" onClick={()=> this.eliminar(dato)}>Eliminar</Button>
+                    <Button color="danger" className="Button1" onClick={()=> this.eliminar(dato)}>Eliminar</Button>
                   </td>
                 </tr>
               ))}

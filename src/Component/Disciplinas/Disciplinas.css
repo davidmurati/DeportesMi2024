@@ -187,6 +187,16 @@ a {
     max-width: 200px;
 }
 
+.Button1{
+    background-color: #0371df;
+    align-items: center;
+    width: flex;
+    font-size: 8px;
+    height: 20%;
+    max-width: 200px;
+}
+
+
 .selector {
     padding: 10px;
     font-size: 16px;
@@ -265,23 +275,26 @@ th, td {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    
 }
 
 .button-container button {
     width: 45%; /* Puedes ajustar este valor según tus necesidades */
     padding: 10px;
     margin: 5px;
+    
 }
 
 /* Estilos adicionales para hacer la tabla responsiva */
 @media screen and (max-width: 600px) {
     th, td {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .button-container {
         flex-direction: column;
         align-items: center;
+       
     }
 
     .button-container button {

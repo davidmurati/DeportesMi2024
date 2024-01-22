@@ -295,13 +295,13 @@ class Atletismo extends React.Component {
                   <td>{dato.Resultado}</td>
                   <td>{dato.Ganador}</td>
                   <td>
-                    <Button
+                    <Button className="Button1"
                       color="primary"
                       onClick={() => this.mostrarModalActualizar(dato)}
                     >
                       Editar
                     </Button>{" "}
-                    <Button color="danger" onClick={()=> this.eliminar(dato)}>Eliminar</Button>
+                    <Button  className="Button1"  onClick={()=> this.eliminar(dato)}>Eliminar</Button>
                   </td>
                 </tr>
               ))}
