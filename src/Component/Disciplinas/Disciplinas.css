@@ -92,6 +92,7 @@ button[type="submit"]:hover {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    min-width: 320px;
 }
 
 .card4 {
@@ -288,7 +289,7 @@ th, td {
 /* Estilos adicionales para hacer la tabla responsiva */
 @media screen and (max-width: 600px) {
     th, td {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .button-container {
