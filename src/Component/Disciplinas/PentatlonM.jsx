@@ -240,7 +240,7 @@ class PentatlonM extends React.Component {
     
     return (
       <>
-      <div className="card2">
+      <div className="card">
 
       <Navbar >
           <Container>

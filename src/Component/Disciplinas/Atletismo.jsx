@@ -28,6 +28,8 @@ const data = [
 
 const clave="12345"
 
+
+
 class Atletismo extends React.Component {
     
   state = {
@@ -41,12 +43,14 @@ class Atletismo extends React.Component {
       CompetidorA: "",
       Resultado: "",
       Ganador: "",
+      
     },
   };
 
 
   componentDidMount() {
     this.getFutbolC();
+    
   }
 
   async getFutbolC() {
@@ -59,6 +63,8 @@ class Atletismo extends React.Component {
     }
   }
 
+
+
   async updateFutbolC() {
     try {
       const { data, error } = await supabase
@@ -69,6 +75,7 @@ class Atletismo extends React.Component {
           CompetidorA: this.state.form.CompetidorA,
           Resultado: this.state.form.Resultado,
           Ganador: this.state.form.Ganador,
+          
         })
         .eq('id', this.state.form.id);
 
@@ -137,6 +144,11 @@ class Atletismo extends React.Component {
     this.setState({
       modalInsertar: true,
     });
+  };
+
+
+  noticiamostrar = () => {
+    this.getNoticia();
   };
 
   cerrarModalInsertar = () => {
@@ -240,7 +252,7 @@ class Atletismo extends React.Component {
     
     return (
       <>
-      <div className="card2">
+      <div className="card">
 
       <Navbar >
           <Container>
@@ -502,10 +514,10 @@ class Atletismo extends React.Component {
           <Button className="custom-button" color="success" onClick={()=>this.mostrarModalInsertar()}>Crear</Button>
           <br />
 
+
           </div>
       </>
       
-
       
     );
   }

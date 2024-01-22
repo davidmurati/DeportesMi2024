@@ -2,7 +2,7 @@ import { useState, useEffect  } from 'react'
 import "./Home.css";
 import Select from 'react-select'
 import Card from "../Card1/cardss.jsx";
-import logoescudo from './logoescudo.png'; 
+import logoescudo from './logoescudo4.png'; 
 import atletismo from './atletismo2.jpg';
 import ajedrez from './ajedrez2.jpg';
 import Bádminton from './Bádminton2.jpg';
@@ -290,7 +290,7 @@ const options = [
     <div>
      
     <div className="card10">
-    <h5>{"DEPORTE DE LA ACADEMIA MILITAR 2024"}</h5>
+    <h7>{"DEPORTE DE LA ACADEMIA MILITAR 2024"}</h7>
 
     </div>
 
