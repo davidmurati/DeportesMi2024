@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { createClient } from '@supabase/supabase-js'
 import "./Disciplinas.css";
+
 import logoN from '../Home/ajedrez1.jpg'; 
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
@@ -239,7 +240,8 @@ class Ajedrez extends React.Component {
 
   render() {
 
-
+    
+  
     
     
     return (
@@ -255,6 +257,7 @@ class Ajedrez extends React.Component {
       <div className="card10">
     <h5>{"AJEDREZ"}</h5>
     </div>
+
 
         <div className="card3">
         <div className="logo-container">

@@ -32,6 +32,7 @@ form {
     justify-content: center;
     margin-bottom: 20px;
     width: flex;
+    
    
 }
 
@@ -40,6 +41,7 @@ form {
     height: 40%;
     width: 40%;
     border-radius: 5%;
+    min-width: 220px;
 }
 
 .App-logo:hover {
