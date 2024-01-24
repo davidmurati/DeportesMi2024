@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom"; 
 import { createClient } from '@supabase/supabase-js'
 import "./Disciplinas.css";
-import logoN from '../Home/esgrima2.jpg'; 
+import logoN from '../Home/Esgrima.jpg'; 
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Table,

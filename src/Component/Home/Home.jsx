@@ -4,12 +4,12 @@ import Select from 'react-select'
 import Card from "../Card1/cardss.jsx";
 import logoescudo from './logoescudo4.png'; 
 import atletismo from './Atletismo.jpeg';
-import ajedrez from './ajedrez1.jpg';
+import ajedrez from './Ajedrez.jpg';
 import Bádminton from './Badminton.jpeg';
 import Baloncestofemenino from './Baloncestofemenino2.jpg';
-import Baloncestomasculino from './Baloncestomasculino2.jpg';
+import Baloncestomasculino from './Baloncesto.jpg';
 import Béisbol from './Beisbol.jpeg';
-import Esgrima from './esgrima2.jpg';
+import Esgrima from './Esgrima.jpg';
 import FútbolCampo from './FutbolCampo.jpeg';
 import FútbolSala from './FutbolSala.jpeg';
 import karate from './Karate.jpeg';
