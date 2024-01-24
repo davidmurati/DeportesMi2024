@@ -21,6 +21,7 @@ import TiroPistola from './Pistola.jpeg';
 import VoleibolFem from './VoleibolF.jpeg';
 import voleibolM from './VoleibolM.jpeg';
 import { createClient } from '@supabase/supabase-js'
+import background from "./logoescudo5.png";
 
 const supabase = createClient(import.meta.env.VITE_APP_SUPABASE_URL, 
   import.meta.env.VITE_APP_SUPABASE_ANON_KEY);
@@ -282,11 +283,17 @@ const options = [
     },
   ];
 
-
+  var sectionStyle = {
+    width: "100%",
+    height: "400px",
+    backgroundImage: `url(${background})`
+  };
   
   return (
 
     <form onSubmit={handleSubmit}>
+
+
     <div>
      
     <div className="card10">
@@ -408,7 +415,7 @@ const options = [
 
       
       </div>
-    
+      
     </form>
   );
 };

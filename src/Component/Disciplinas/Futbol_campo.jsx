@@ -242,6 +242,61 @@ class futbolC extends React.Component {
     window.location.href="/"
   };
 
+  navigateTo1 = () => {
+    window.location.href="/ajedrez"
+  };
+  navigateTo2 = () => {
+    window.location.href="/Atletismo"
+  };
+  navigateTo3 = () => {
+    window.location.href="/Badminton"
+  };
+  navigateTo4 = () => {
+    window.location.href="/BaloncestoF"
+  };
+  navigateTo5 = () => {
+    window.location.href="/BaloncestoM"
+  };
+  navigateTo6 = () => {
+    window.location.href="/Beisbol"
+  };
+  navigateTo7 = () => {
+    window.location.href="/Esgrima"
+  };
+  navigateTo8 = () => {
+    window.location.href="/FutbolC"
+  };
+  navigateTo9 = () => {
+    window.location.href="/FutbolS"
+  };
+  navigateTo10 = () => {
+    window.location.href="/Karate"
+  };
+  navigateTo11 = () => {
+    window.location.href="/Natacion"
+  };
+  navigateTo12 = () => {
+    window.location.href="/OrientacionM"
+  };
+  navigateTo13 = () => {
+    window.location.href="/PentatlonM"
+  };
+  navigateTo14 = () => {
+    window.location.href="/Softbol"
+  };
+  navigateTo15 = () => {
+    window.location.href="/TiroFusil"
+  };
+  navigateTo16 = () => {
+    window.location.href="/TiroPistola"
+  };
+  navigateTo17 = () => {
+    window.location.href="/VoleibolF"
+  };
+  navigateTo18 = () => {
+    window.location.href="/VoleibolM"
+  };
+
   render() {
 
 
@@ -537,6 +592,53 @@ class futbolC extends React.Component {
         <br />
           <Button className="custom-button" color="success" onClick={()=>this.mostrarModalInsertar()}>Crear</Button>
           <br />
+
+          <Container>
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo1}>Ajedrez</span>
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo2}>Atletismo</span>
+          
+          </Container>
+
+          <Container>
+        
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo3}>Bádminton</span>
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo4}>Baloncesto F</span>
+          </Container>
+
+          <Container>
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo5}>Baloncesto M</span>
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo6}>Béisbol</span>
+          </Container>
+
+          <Container>
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo7}>Esgrima</span>
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo8}>Futbol Campo</span>
+          </Container>
+
+          <Container>
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo9}>Fútbol Sala</span>
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo10}>Karate</span>
+          </Container>
+
+          <Container>
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo11}>Natación</span>
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo12}>Orientación</span>
+          </Container>
+
+          <Container>
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo13}>Pentatlón</span>
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo14}>Sóftbol</span>
+          </Container>
+
+          <Container>
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo15}>Tiro con Fusil</span>
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo16}>Tiro con Pistola</span>
+          </Container>
+
+          <Container>
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo17}>Voleibol F</span>
+          <span className="navbar-brand whiteLink" onClick={this.navigateTo18}>Voleibol M</span>
+          </Container>
 
           </div>
       </>

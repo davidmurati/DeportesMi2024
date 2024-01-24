@@ -6,8 +6,9 @@ body {
     height: flex;
     margin: 0;
     padding: 0;
-    background-color: #181cf38f;
+    background-color: #171ad6e0;
     min-width: 320px;
+    
 }
 
 #root {
@@ -109,13 +110,15 @@ button[type="submit"]:hover {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
     width: 100%;
     min-width: 320px;
     background-color: #3224f800;
     
 }
+
+
 
 .card4 {
     width: 50%;
@@ -327,7 +330,7 @@ th, td {
 
 /* Agrega estos estilos según tus preferencias */
 .custom-button {
-    background-color: #0059b3; /* Color verde de Bootstrap para botón de éxito */
+    background-color: #757677; /* Color verde de Bootstrap para botón de éxito */
     color: #fff; /* Color de texto */
     border: none; /* Sin borde */
     padding: 10px 20px; /* Espaciado interno */
@@ -355,6 +358,7 @@ th, td {
     
     color: #fafafa;
     text-decoration: none;
+    
   }
   
   .whiteLink:hover {
@@ -362,3 +366,5 @@ th, td {
     cursor: pointer;
     color: #fafafa;
   }
+
+  
