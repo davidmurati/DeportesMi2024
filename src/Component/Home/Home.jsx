@@ -3,23 +3,23 @@ import "./Home.css";
 import Select from 'react-select'
 import Card from "../Card1/cardss.jsx";
 import logoescudo from './logoescudo4.png'; 
-import atletismo from './atletismo2.jpg';
-import ajedrez from './ajedrez2.jpg';
-import Bádminton from './Bádminton2.jpg';
+import atletismo from './Atletismo.jpeg';
+import ajedrez from './ajedrez1.jpg';
+import Bádminton from './Badminton.jpeg';
 import Baloncestofemenino from './Baloncestofemenino2.jpg';
 import Baloncestomasculino from './Baloncestomasculino2.jpg';
-import Béisbol from './Béisbol2.jpg';
+import Béisbol from './Beisbol.jpeg';
 import Esgrima from './esgrima2.jpg';
-import FútbolCampo from './FútbolCampo2.jpg';
-import FútbolSala from './FútbolSala2.jpg';
-import karate from './karate2.jpg';
-import natacion from './natacion2.jpg';
-import pentatlonm from './pentatlonm2.jpg';
-import Sóftbol from './Sóftbol2.jpg';
-import TiroFusil from './TiroFusil2.jpg';
-import TiroPistola from './TiroPistola2.jpg';
-import VoleibolFem from './VoleibolFem2.jpg';
-import voleibolM from './voleibolM2.jpg';
+import FútbolCampo from './FutbolCampo.jpeg';
+import FútbolSala from './FutbolSala.jpeg';
+import karate from './Karate.jpeg';
+import natacion from './Natacion.jpeg';
+import pentatlonm from './Pentatlon.jpeg';
+import Sóftbol from './Softbol.jpeg';
+import TiroFusil from './TiroFusil1.jpg';
+import TiroPistola from './Pistola.jpeg';
+import VoleibolFem from './VoleibolF.jpeg';
+import voleibolM from './VoleibolM.jpeg';
 import { createClient } from '@supabase/supabase-js'
 
 const supabase = createClient(import.meta.env.VITE_APP_SUPABASE_URL, 
@@ -295,7 +295,7 @@ const options = [
     </div>
 
     <div className="logo-container2">
-        <img src={logoescudo} className="App-logo" alt="logo" />
+        <img src={logoescudo} className="Appx-logo" alt="logo" />
         
         </div>
 
@@ -313,7 +313,7 @@ const options = [
 
           <section id="listaE"> 
 
-            <div className="card">
+            <div className="cardx">
             
             <h4>{"Selecciona el deporte que quieres consultar"}</h4>
             

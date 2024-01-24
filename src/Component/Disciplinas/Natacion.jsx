@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { createClient } from '@supabase/supabase-js'
 import "./Disciplinas.css";
-import logoN from '../Home/natacion2.jpg'; 
+import logoN from '../Home/Natacion.jpeg'; 
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Table,

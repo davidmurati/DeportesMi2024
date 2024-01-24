@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { createClient } from '@supabase/supabase-js'
 import "./Disciplinas.css";
-import logoN from '../Home/FútbolCampo2.jpg'; 
+import logoN from '../Home/FutbolCampo.jpeg'; 
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Table,
@@ -518,6 +518,7 @@ class futbolC extends React.Component {
           </ModalBody>
 
           <ModalFooter>
+            
             <Button
               color="primary"
               onClick={() => this.insertar()}

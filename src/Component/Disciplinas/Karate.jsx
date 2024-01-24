@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom"; 
 import { createClient } from '@supabase/supabase-js'
 import "./Disciplinas.css";
-import logoN from '../Home/karate2.jpg'; 
+import logoN from '../Home/Karate.jpeg'; 
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Table,
@@ -70,7 +70,7 @@ class Karate extends React.Component {
           Hora: this.state.form.Hora,
           CompetidorA: this.state.form.CompetidorA,
           CompetidorB: this.state.form.CompetidorB,
-          Resultado: this.state.form.Disciplina,
+          Disciplina: this.state.form.Disciplina,
           Ganador: this.state.form.Ganador,
         })
         .eq('id', this.state.form.id);
@@ -90,7 +90,7 @@ class Karate extends React.Component {
         Hora: this.state.form.Hora,
         CompetidorA: this.state.form.CompetidorA,
         CompetidorB: this.state.form.CompetidorB,
-        Resultado: this.state.form.Disciplina,
+        Disciplina: this.state.form.Disciplina,
         Ganador: this.state.form.Ganador,
       };
 
@@ -302,6 +302,7 @@ class Karate extends React.Component {
               ))}
             </tbody>
           </Table>
+          
         </Container>
 
         <Modal isOpen={this.state.modalActualizar}>

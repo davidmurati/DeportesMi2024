@@ -5,16 +5,19 @@
   
   .card-body {
     padding: 2rem 0 !important;
+    
   }
   
   .card-text {
     padding: 0.3rem 1rem;
     font-size: 1rem;
     text-align: left;
+    
   }
   
   .overflow {
     overflow: hidden;
+    min-height: 200px;
   }
   
   .card-img-top {
@@ -25,3 +28,5 @@
   .card-img-top:hover {
     transform: scale(1.8);
   }
+
+ 

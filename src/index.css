@@ -27,8 +27,9 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 500px;
+  min-width: 320px;
   min-height: 100vh;
+  
 }
 
 h1 {
@@ -58,9 +59,10 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #064ed3;
-    min-width: 500px;
+    background-color: #ffffff00;
+    min-width: 320px;
     height: flex;
+    width: flex;
   }
   a{
     color: #747bff;

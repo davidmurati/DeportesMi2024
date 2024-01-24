@@ -6,14 +6,11 @@ body {
   height: flex;
   margin: 0;
   padding: 0;
-  background-color: #064ed3;
-  min-width: 500px; /* Ancho mínimo para el cuerpo */
+  
+  
 }
 
-#root {
-  min-width: 500px; /* Ancho mínimo para la raíz */
-  background-color: #064ed3b4;
-}
+
 
 /* Form styles */
 form {
@@ -35,9 +32,15 @@ form {
 }
 
 /* Logo styles */
-.App-logo {
+.Appx-logo {
   height: 40%;
   width: 40%;
+}
+
+.Appx-logo:hover {
+  box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0) !important;
+  transition: all 0.7s linear;
+  
 }
 
 /* Main styles */
@@ -63,7 +66,6 @@ button[type="submit"]:hover {
   background-color: #3e8e41;
 }
 
-/* Card styles */
 .card {
   width: auto;
   height: auto;
@@ -71,6 +73,22 @@ button[type="submit"]:hover {
   margin-bottom: 20px;
   margin-top: 20px;
   background-color: #dadada9f;
+}
+
+.cardx {
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #dadada9f;
+  border-radius: 1%;
+}
+
+.cardx:hover {
+  box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+  transition: all 0.7s linear;
 }
 
 .card2 {
@@ -94,6 +112,7 @@ button[type="submit"]:hover {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  
 }
 
 .card4 {

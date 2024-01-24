@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { createClient } from '@supabase/supabase-js'
 import "./Disciplinas.css";
-import logoN from '../Home/ajedrez2.jpg'; 
+import logoN from '../Home/ajedrez1.jpg'; 
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Table,
@@ -503,9 +503,11 @@ class Ajedrez extends React.Component {
           </ModalFooter>
         </Modal>
 
+        
         <br />
           <Button className="custom-button" color="success" onClick={()=>this.mostrarModalInsertar()}>Crear</Button>
           <br />
+         
 
           </div>
       </>
