@@ -6,7 +6,7 @@ import logoescudo from './logoescudo4.png';
 import atletismo from './Atletismo.jpeg';
 import ajedrez from './Ajedrez.jpg';
 import Bádminton from './Badminton.jpeg';
-import Baloncestofemenino from './Baloncestofemenino2.jpg';
+import Baloncestofemenino from './BaloncestoF.jpg';
 import Baloncestomasculino from './Baloncesto.jpg';
 import Béisbol from './Beisbol.jpeg';
 import Esgrima from './Esgrima.jpg';

@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { createClient } from '@supabase/supabase-js'
 import "./Disciplinas.css";
-import logoN from '../Home/Baloncestofemenino2.jpg'; 
+import logoN from '../Home/BaloncestoF.jpg'; 
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Table,
@@ -584,9 +584,13 @@ class BaloncestoF extends React.Component {
           </ModalFooter>
         </Modal>
 
-        <br />
+          <br />
           <Button className="custom-button" color="success" onClick={()=>this.mostrarModalInsertar()}>Crear</Button>
           <br />
+
+          <div className="card10">
+            <h5>{"DISCIPLINAS"}</h5>
+          </div>
 
           <Container>
           <span className="navbar-brand whiteLink" onClick={this.navigateTo1}>Ajedrez</span>

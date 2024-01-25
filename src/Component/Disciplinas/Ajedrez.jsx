@@ -567,7 +567,10 @@ class Ajedrez extends React.Component {
           <Button className="custom-button" color="success" onClick={()=>this.mostrarModalInsertar()}>Crear</Button>
           <br />
          
-          
+          <div className="card10">
+    <h5>{"DISCIPLINAS"}</h5>
+    </div>
+
           <Container>
           <span className="navbar-brand whiteLink" onClick={this.navigateTo1}>Ajedrez</span>
           <span className="navbar-brand whiteLink" onClick={this.navigateTo2}>Atletismo</span>
